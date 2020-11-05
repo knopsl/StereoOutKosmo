@@ -72,11 +72,11 @@ Text Label 4500 3900 0    50   ~ 0
 PAN4_2
 Text Label 4500 4100 0    50   ~ 0
 PAN4_3
-Text Label 6150 3500 2    50   ~ 0
-PAN4_4
 Text Label 6150 3700 2    50   ~ 0
-PAN4_5
+PAN4_4
 Text Label 6150 3900 2    50   ~ 0
+PAN4_5
+Text Label 6150 4100 2    50   ~ 0
 PAN4_6
 Text Label 6150 4500 2    50   ~ 0
 HVOL1_4
@@ -145,7 +145,7 @@ F 1 "R_POT" H 1880 1705 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1950 1750 50  0001 C CNN
 F 3 "~" H 1950 1750 50  0001 C CNN
 	1    1950 1750
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text Label 1400 4350 0    50   ~ 0
 LEV4_3
@@ -219,7 +219,7 @@ F 1 "R_POT" H 1880 2505 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1950 2550 50  0001 C CNN
 F 3 "~" H 1950 2550 50  0001 C CNN
 	1    1950 2550
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1400 2350 1950 2350
@@ -240,7 +240,7 @@ F 1 "R_POT" H 1880 3305 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1950 3350 50  0001 C CNN
 F 3 "~" H 1950 3350 50  0001 C CNN
 	1    1950 3350
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1400 3150 1950 3150
@@ -261,7 +261,7 @@ F 1 "R_POT" H 1880 4105 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1950 4150 50  0001 C CNN
 F 3 "~" H 1950 4150 50  0001 C CNN
 	1    1950 4150
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1400 3950 1950 3950
