@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ao_tht)(type KiCad)(uri ${KIPRJMOD}/ao_tht.pretty)(options "")(descr ""))
+  (lib (name stereoout)(type KiCad)(uri ${KIPRJMOD}/stereoout.pretty)(options "")(descr ""))
+)
