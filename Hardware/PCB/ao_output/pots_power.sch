@@ -769,6 +769,9 @@ F 0 "RV5" H 5930 1204 50  0000 R CNN
 F 1 "B10k" H 5930 1295 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 6000 1250 50  0001 C CNN
 F 3 "~" H 6000 1250 50  0001 C CNN
+F 4 "RK09L12D0A1W" H 6000 1250 50  0001 C CNN "Part"
+F 5 "Mouser" H 6000 1250 50  0001 C CNN "Vendor"
+F 6 "Alps Alpine" H 6000 1250 50  0001 C CNN "Manufacturer"
 	1    6000 1250
 	1    0    0    1   
 $EndComp
@@ -802,19 +805,6 @@ Wire Wire Line
 	6150 1250 6250 1250
 Wire Wire Line
 	6150 1650 6250 1650
-$Comp
-L Device:R_POT_Dual_Separate RV?
-U 1 1 606C6476
-P 6000 2750
-AR Path="/606C6476" Ref="RV?"  Part="1" 
-AR Path="/6080E244/606C6476" Ref="RV6"  Part="1" 
-F 0 "RV6" H 5930 2704 50  0000 R CNN
-F 1 "B10k" H 5930 2795 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 6000 2750 50  0001 C CNN
-F 3 "~" H 6000 2750 50  0001 C CNN
-	1    6000 2750
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:R_POT_Dual_Separate RV?
 U 2 1 606C647C
@@ -858,19 +848,6 @@ F 3 "~" H 7500 1650 50  0001 C CNN
 	2    7500 1650
 	1    0    0    1   
 $EndComp
-$Comp
-L Device:R_POT_Dual_Separate RV?
-U 1 1 606C6492
-P 7500 2750
-AR Path="/606C6492" Ref="RV?"  Part="2" 
-AR Path="/6080E244/606C6492" Ref="RV8"  Part="1" 
-F 0 "RV8" H 7431 2704 50  0000 R CNN
-F 1 "B10k" H 7431 2795 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 7500 2750 50  0001 C CNN
-F 3 "~" H 7500 2750 50  0001 C CNN
-	1    7500 2750
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	7500 1000 7500 1100
 Wire Wire Line
@@ -897,20 +874,6 @@ F 1 "B10k" H 7930 4295 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 8000 4250 50  0001 C CNN
 F 3 "~" H 8000 4250 50  0001 C CNN
 	2    8000 4250
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_POT_Dual_Separate RV?
-U 1 1 606CBB0C
-P 7500 1250
-AR Path="/6063F60B/609A550B/606CBB0C" Ref="RV?"  Part="1" 
-AR Path="/606CBB0C" Ref="RV?"  Part="1" 
-AR Path="/6080E244/606CBB0C" Ref="RV7"  Part="1" 
-F 0 "RV7" H 7431 1204 50  0000 R CNN
-F 1 "B10k" H 7431 1295 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 7500 1250 50  0001 C CNN
-F 3 "~" H 7500 1250 50  0001 C CNN
-	1    7500 1250
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -1182,19 +1145,6 @@ Wire Wire Line
 	7500 2500 7500 2600
 $Comp
 L Device:R_POT_Dual_Separate RV?
-U 1 1 606C64A8
-P 6500 4250
-AR Path="/606C64A8" Ref="RV?"  Part="2" 
-AR Path="/6080E244/606C64A8" Ref="RV9"  Part="1" 
-F 0 "RV9" H 6431 4204 50  0000 R CNN
-F 1 "B10k" H 6431 4295 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 6500 4250 50  0001 C CNN
-F 3 "~" H 6500 4250 50  0001 C CNN
-	1    6500 4250
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_POT_Dual_Separate RV?
 U 2 1 606C64A2
 P 7500 3150
 AR Path="/606C64A2" Ref="RV?"  Part="1" 
@@ -1281,5 +1231,69 @@ F 3 "~" H 9000 3750 50  0001 C CNN
 F 4 "DNF" H 9000 3750 50  0001 C CNN "Config"
 	1    9000 3750
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_Dual_Separate RV?
+U 1 1 6057F9AC
+P 6000 2750
+AR Path="/6057F9AC" Ref="RV?"  Part="1" 
+AR Path="/6080E244/6057F9AC" Ref="RV6"  Part="1" 
+F 0 "RV6" H 5930 2704 50  0000 R CNN
+F 1 "B10k" H 5930 2795 50  0000 R CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 6000 2750 50  0001 C CNN
+F 3 "~" H 6000 2750 50  0001 C CNN
+F 4 "RK09L12D0A1W" H 6000 2750 50  0001 C CNN "Part"
+F 5 "Mouser" H 6000 2750 50  0001 C CNN "Vendor"
+F 6 "Alps Alpine" H 6000 2750 50  0001 C CNN "Manufacturer"
+	1    6000 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_POT_Dual_Separate RV?
+U 1 1 60580315
+P 7500 1250
+AR Path="/60580315" Ref="RV?"  Part="1" 
+AR Path="/6080E244/60580315" Ref="RV7"  Part="1" 
+F 0 "RV7" H 7430 1204 50  0000 R CNN
+F 1 "B10k" H 7430 1295 50  0000 R CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 7500 1250 50  0001 C CNN
+F 3 "~" H 7500 1250 50  0001 C CNN
+F 4 "RK09L12D0A1W" H 7500 1250 50  0001 C CNN "Part"
+F 5 "Mouser" H 7500 1250 50  0001 C CNN "Vendor"
+F 6 "Alps Alpine" H 7500 1250 50  0001 C CNN "Manufacturer"
+	1    7500 1250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_POT_Dual_Separate RV?
+U 1 1 605818B6
+P 7500 2750
+AR Path="/605818B6" Ref="RV?"  Part="1" 
+AR Path="/6080E244/605818B6" Ref="RV8"  Part="1" 
+F 0 "RV8" H 7430 2704 50  0000 R CNN
+F 1 "B10k" H 7430 2795 50  0000 R CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 7500 2750 50  0001 C CNN
+F 3 "~" H 7500 2750 50  0001 C CNN
+F 4 "RK09L12D0A1W" H 7500 2750 50  0001 C CNN "Part"
+F 5 "Mouser" H 7500 2750 50  0001 C CNN "Vendor"
+F 6 "Alps Alpine" H 7500 2750 50  0001 C CNN "Manufacturer"
+	1    7500 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_POT_Dual_Separate RV?
+U 1 1 60581E65
+P 6500 4250
+AR Path="/60581E65" Ref="RV?"  Part="1" 
+AR Path="/6080E244/60581E65" Ref="RV9"  Part="1" 
+F 0 "RV9" H 6430 4204 50  0000 R CNN
+F 1 "B10k" H 6430 4295 50  0000 R CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical_CircularHoles_centered" H 6500 4250 50  0001 C CNN
+F 3 "~" H 6500 4250 50  0001 C CNN
+F 4 "RK09L12D0A1W" H 6500 4250 50  0001 C CNN "Part"
+F 5 "Mouser" H 6500 4250 50  0001 C CNN "Vendor"
+F 6 "Alps Alpine" H 6500 4250 50  0001 C CNN "Manufacturer"
+	1    6500 4250
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
