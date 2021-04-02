@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name stereo_outs_panel)(type KiCad)(uri ${KIPRJMOD}/stereo_outs_panel.pretty)(options "")(descr ""))
   (lib (name Kosmo_panel)(type KiCad)(uri ${KIPRJMOD}/Kosmo_panel.pretty)(options "")(descr ""))
+  (lib (name ao_output_panel)(type KiCad)(uri ${KIPRJMOD}/ao_output_panel.pretty)(options "")(descr ""))
 )

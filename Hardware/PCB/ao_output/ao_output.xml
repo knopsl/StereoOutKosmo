@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/Output/Hardware/PCB/ao_output/ao_output.sch</source>
-    <date>Sat 20 Mar 2021 02:04:22 PM EDT</date>
+    <date>Fri 02 Apr 2021 08:34:49 AM EDT</date>
     <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -202,7 +202,7 @@
     </comp>
     <comp ref="D1">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -210,7 +210,7 @@
     </comp>
     <comp ref="D2">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -218,7 +218,7 @@
     </comp>
     <comp ref="D3">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -226,23 +226,23 @@
     </comp>
     <comp ref="D4">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>607EBD7B</tstamp>
     </comp>
     <comp ref="R28">
-      <value>75</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <value>75R 1/2 W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>606689E6</tstamp>
     </comp>
     <comp ref="R27">
-      <value>75</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <value>75R 1/2 W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -274,9 +274,9 @@
     </comp>
     <comp ref="C8">
       <value>2.2uF</value>
-      <footprint>ao_tht:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <footprint>ao_tht:C_Radial_D5.0mm_H7.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60668971</tstamp>
     </comp>
@@ -290,9 +290,9 @@
     </comp>
     <comp ref="C9">
       <value>2.2uF</value>
-      <footprint>ao_tht:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <footprint>ao_tht:C_Radial_D5.0mm_H7.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6066893C</tstamp>
     </comp>
@@ -330,9 +330,9 @@
     </comp>
     <comp ref="C7">
       <value>2.2uF</value>
-      <footprint>ao_tht:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <footprint>ao_tht:C_Radial_D5.0mm_H7.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6066891E</tstamp>
     </comp>
@@ -410,7 +410,7 @@
     </comp>
     <comp ref="D5">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -418,7 +418,7 @@
     </comp>
     <comp ref="D6">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -426,7 +426,7 @@
     </comp>
     <comp ref="D7">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -434,7 +434,7 @@
     </comp>
     <comp ref="D8">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/" tstamps="/"/>
@@ -460,7 +460,7 @@
     </comp>
     <comp ref="J1">
       <value>Conn_02x05_Odd_Even</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -596,7 +596,7 @@
     </comp>
     <comp ref="D9">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -604,7 +604,7 @@
     </comp>
     <comp ref="C12">
       <value>10uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <footprint>ao_tht:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -612,7 +612,7 @@
     </comp>
     <comp ref="C13">
       <value>10uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <footprint>ao_tht:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -620,7 +620,7 @@
     </comp>
     <comp ref="C14">
       <value>100nF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -628,7 +628,7 @@
     </comp>
     <comp ref="C15">
       <value>100nF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -643,7 +643,7 @@
     </comp>
     <comp ref="D10">
       <value>1N5817</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -651,7 +651,7 @@
     </comp>
     <comp ref="C16">
       <value>100nF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -659,7 +659,7 @@
     </comp>
     <comp ref="C17">
       <value>100nF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -667,7 +667,7 @@
     </comp>
     <comp ref="C20">
       <value>100nF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -683,7 +683,7 @@
     </comp>
     <comp ref="C19">
       <value>100nF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>
@@ -691,7 +691,7 @@
     </comp>
     <comp ref="C18">
       <value>330nF</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Pot boards and power/" tstamps="/6080E244/"/>

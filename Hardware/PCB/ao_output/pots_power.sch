@@ -21,7 +21,7 @@ AR Path="/608264AB" Ref="D?"  Part="1"
 AR Path="/6080E244/608264AB" Ref="D9"  Part="1" 
 F 0 "D9" H 3900 5634 50  0000 C CNN
 F 1 "1N5817" H 3900 5725 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 3900 5850 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal" H 3900 5850 50  0001 C CNN
 F 3 "~" H 3900 5850 50  0001 C CNN
 	1    3900 5850
 	-1   0    0    1   
@@ -34,7 +34,7 @@ AR Path="/608264B1" Ref="C?"  Part="1"
 AR Path="/6080E244/608264B1" Ref="C12"  Part="1" 
 F 0 "C12" H 4918 5946 50  0000 L CNN
 F 1 "10uF" H 4918 5855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4838 5750 50  0001 C CNN
+F 2 "ao_tht:CP_Radial_D6.3mm_P2.50mm" H 4838 5750 50  0001 C CNN
 F 3 "~" H 4800 5900 50  0001 C CNN
 	1    4800 5900
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/608264B7" Ref="C?"  Part="1"
 AR Path="/6080E244/608264B7" Ref="C13"  Part="1" 
 F 0 "C13" H 4918 6246 50  0000 L CNN
 F 1 "10uF" H 4918 6155 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 4838 6050 50  0001 C CNN
+F 2 "ao_tht:CP_Radial_D6.3mm_P2.50mm" H 4838 6050 50  0001 C CNN
 F 3 "~" H 4800 6200 50  0001 C CNN
 	1    4800 6200
 	1    0    0    -1  
@@ -73,7 +73,7 @@ AR Path="/608264C3" Ref="C?"  Part="1"
 AR Path="/6080E244/608264C3" Ref="C14"  Part="1" 
 F 0 "C14" H 5365 5946 50  0000 L CNN
 F 1 "100nF" H 5365 5855 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5288 5750 50  0001 C CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5288 5750 50  0001 C CNN
 F 3 "~" H 5250 5900 50  0001 C CNN
 	1    5250 5900
 	1    0    0    -1  
@@ -86,7 +86,7 @@ AR Path="/608264C9" Ref="C?"  Part="1"
 AR Path="/6080E244/608264C9" Ref="C15"  Part="1" 
 F 0 "C15" H 5365 6246 50  0000 L CNN
 F 1 "100nF" H 5365 6155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5288 6050 50  0001 C CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5288 6050 50  0001 C CNN
 F 3 "~" H 5250 6200 50  0001 C CNN
 	1    5250 6200
 	1    0    0    -1  
@@ -249,7 +249,7 @@ AR Path="/60826518" Ref="D?"  Part="1"
 AR Path="/6080E244/60826518" Ref="D10"  Part="1" 
 F 0 "D10" H 3900 6034 50  0000 C CNN
 F 1 "1N5817" H 3900 6125 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 3900 6250 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal" H 3900 6250 50  0001 C CNN
 F 3 "~" H 3900 6250 50  0001 C CNN
 	1    3900 6250
 	1    0    0    -1  
@@ -266,7 +266,7 @@ AR Path="/60826520" Ref="C?"  Part="1"
 AR Path="/6080E244/60826520" Ref="C16"  Part="1" 
 F 0 "C16" H 6315 5946 50  0000 L CNN
 F 1 "100nF" H 6315 5855 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 6238 5750 50  0001 C CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 6238 5750 50  0001 C CNN
 F 3 "~" H 6200 5900 50  0001 C CNN
 	1    6200 5900
 	1    0    0    -1  
@@ -279,7 +279,7 @@ AR Path="/60826526" Ref="C?"  Part="1"
 AR Path="/6080E244/60826526" Ref="C17"  Part="1" 
 F 0 "C17" H 6315 6246 50  0000 L CNN
 F 1 "100nF" H 6315 6155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 6238 6050 50  0001 C CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 6238 6050 50  0001 C CNN
 F 3 "~" H 6200 6200 50  0001 C CNN
 	1    6200 6200
 	1    0    0    -1  
@@ -331,7 +331,7 @@ AR Path="/6082653E" Ref="U?"  Part="3"
 AR Path="/6080E244/6082653E" Ref="U2"  Part="3" 
 F 0 "U2" H 6808 6096 50  0000 L CNN
 F 1 "TL072" H 6808 6005 50  0000 L CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 6800 6150 50  0001 C CNN
+F 2 "ao_tht:DIP-8_W7.62mm_Socket_LongPads" H 6800 6150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6900 6250 50  0001 C CNN
 	3    6850 6050
 	1    0    0    -1  
@@ -344,7 +344,7 @@ AR Path="/60826544" Ref="C?"  Part="1"
 AR Path="/6080E244/60826544" Ref="C20"  Part="1" 
 F 0 "C20" H 8665 6096 50  0000 L CNN
 F 1 "100nF" H 8665 6005 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8588 5900 50  0001 C CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8588 5900 50  0001 C CNN
 F 3 "~" H 8550 6050 50  0001 C CNN
 	1    8550 6050
 	1    0    0    -1  
@@ -464,7 +464,7 @@ AR Path="/608FCC96" Ref="C?"  Part="1"
 AR Path="/6080E244/608FCC96" Ref="C19"  Part="1" 
 F 0 "C19" H 8065 6146 50  0000 L CNN
 F 1 "100nF" H 8065 6055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7988 5950 50  0001 C CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7988 5950 50  0001 C CNN
 F 3 "~" H 7950 6100 50  0001 C CNN
 	1    7950 6100
 	1    0    0    -1  
@@ -477,7 +477,7 @@ AR Path="/608FD1AA" Ref="C?"  Part="1"
 AR Path="/6080E244/608FD1AA" Ref="C18"  Part="1" 
 F 0 "C18" H 7265 6146 50  0000 L CNN
 F 1 "330nF" H 7265 6055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7188 5950 50  0001 C CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7188 5950 50  0001 C CNN
 F 3 "~" H 7150 6100 50  0001 C CNN
 	1    7150 6100
 	1    0    0    -1  

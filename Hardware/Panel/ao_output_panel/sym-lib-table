@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ao_output_panel)(type Legacy)(uri ${KIPRJMOD}/ao_output_panel.lib)(options "")(descr ""))
+)
