@@ -6,7 +6,7 @@ This is a work in progress.
 
 Stereo output synthesizer module in Kosmo format.
 
-This is somewhat based on the [Barton Stereo Outs](https://www.bartonmusicalcircuits.com/stereoouts/index.html)  module. There are four AC coupled inputs with pan and level controls. There also is a general level control.
+This is somewhat based on the [Barton Stereo Outs](https://www.bartonmusicalcircuits.com/stereoouts/index.html)  module. There are four AC coupled inputs with pan and level controls. 
 
 The headphone output section is based on the LM4808 datasheet circuit. This is an SMD (SOIC-8) part; all other components are through hole.
 
