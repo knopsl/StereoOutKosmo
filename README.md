@@ -10,6 +10,8 @@ This is somewhat based on the [Barton Stereo Outs](https://www.bartonmusicalcirc
 
 The headphone output section is based on the LM4808 datasheet circuit. This is an SMD (SOIC-8) part; all other components are through hole.
 
+NOTE: C10 and C11 are marked as 100 nF on the first run PCB but should be 1 µF.
+
 ![](Images/ao_output_sch1.jpg) 
 
 ![](Images/ao_output_sch2.jpg) 

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/Output/Hardware/PCB/ao_output/ao_output.sch</source>
-    <date>Fri 02 Apr 2021 08:34:49 AM EDT</date>
+    <date>Fri 09 Apr 2021 10:43:46 PM EDT</date>
     <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -249,7 +249,7 @@
       <tstamp>606689A7</tstamp>
     </comp>
     <comp ref="C10">
-      <value>100nF</value>
+      <value>1uF</value>
       <footprint>ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -297,7 +297,7 @@
       <tstamp>6066893C</tstamp>
     </comp>
     <comp ref="R20">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -305,7 +305,7 @@
       <tstamp>60668936</tstamp>
     </comp>
     <comp ref="R19">
-      <value>100K</value>
+      <value>100k</value>
       <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -377,7 +377,7 @@
       <tstamp>607BD8EA</tstamp>
     </comp>
     <comp ref="C1">
-      <value>470n</value>
+      <value>470nF</value>
       <footprint>ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -385,7 +385,7 @@
       <tstamp>605F282A</tstamp>
     </comp>
     <comp ref="C2">
-      <value>470n</value>
+      <value>470nF</value>
       <footprint>ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -393,7 +393,7 @@
       <tstamp>605FD32B</tstamp>
     </comp>
     <comp ref="C3">
-      <value>470n</value>
+      <value>470nF</value>
       <footprint>ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -401,7 +401,7 @@
       <tstamp>605FD7DF</tstamp>
     </comp>
     <comp ref="C4">
-      <value>470n</value>
+      <value>470nF</value>
       <footprint>ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -441,7 +441,7 @@
       <tstamp>6062A94E</tstamp>
     </comp>
     <comp ref="C11">
-      <value>100nF</value>
+      <value>1uF</value>
       <footprint>ao_tht:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -462,6 +462,9 @@
       <value>Conn_02x05_Odd_Even</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6069A945</tstamp>
@@ -698,7 +701,7 @@
       <tstamp>608FD1AA</tstamp>
     </comp>
     <comp ref="RV1">
-      <value>B100k</value>
+      <value>A100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
@@ -706,7 +709,7 @@
       <tstamp>6067DFBF</tstamp>
     </comp>
     <comp ref="RV2">
-      <value>B100k</value>
+      <value>A100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
@@ -714,7 +717,7 @@
       <tstamp>6067DFCD</tstamp>
     </comp>
     <comp ref="RV3">
-      <value>B100k</value>
+      <value>A100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
@@ -722,7 +725,7 @@
       <tstamp>6067DFDC</tstamp>
     </comp>
     <comp ref="RV4">
-      <value>B100k</value>
+      <value>A100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RA6020F_Single_Slide</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
