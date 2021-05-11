@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 3_Pin_Molex_Header
-D 3 pin Molex header 2.54 mm
-K connector
-F ~
-$ENDCMP
-#
-#End Doc Library
