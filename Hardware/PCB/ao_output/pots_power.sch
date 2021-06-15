@@ -903,17 +903,17 @@ Wire Wire Line
 Connection ~ 5550 2500
 Wire Wire Line
 	5550 2500 6000 2500
-Text GLabel 6250 1250 2    50   Output ~ 0
-CH1L
 Text GLabel 6250 1650 2    50   Output ~ 0
+CH1L
+Text GLabel 6250 1250 2    50   Output ~ 0
 CH1R
-Text GLabel 6250 2750 2    50   Output ~ 0
-CH2L
 Text GLabel 6250 3150 2    50   Output ~ 0
+CH2L
+Text GLabel 6250 2750 2    50   Output ~ 0
 CH2R
-Text GLabel 7750 1250 2    50   Output ~ 0
-CH3L
 Text GLabel 7750 1650 2    50   Output ~ 0
+CH3L
+Text GLabel 7750 1250 2    50   Output ~ 0
 CH3R
 $Comp
 L power:GND2 #PWR0115
@@ -1122,9 +1122,9 @@ F 3 "" H 7850 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 2900 7500 2950
-Text GLabel 7750 3150 2    50   Output ~ 0
-CH4R
 Text GLabel 7750 2750 2    50   Output ~ 0
+CH4R
+Text GLabel 7750 3150 2    50   Output ~ 0
 CH4L
 Wire Wire Line
 	7050 2500 7500 2500
