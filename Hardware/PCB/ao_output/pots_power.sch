@@ -1296,4 +1296,6 @@ F 6 "Alps Alpine" H 6500 4250 50  0001 C CNN "Manufacturer"
 	1    6500 4250
 	1    0    0    1   
 $EndComp
+Text Notes 2700 850  0    50   ~ 0
+Actually it would be better to have sliders\nand jacks on the same board, main circuit\non another.
 $EndSCHEMATC

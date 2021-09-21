@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name ao_tht)(type KiCad)(uri ${KIPRJMOD}/ao_tht.pretty)(options "")(descr ""))
   (lib (name ao_output_panel)(type KiCad)(uri /home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Scratch/Output/Hardware/Panel/ao_output_panel/ao_output_panel.pretty)(options "")(descr ""))
 )

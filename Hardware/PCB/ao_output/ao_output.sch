@@ -1757,5 +1757,7 @@ F 4 "DNF" H 1700 7750 50  0001 C CNN "Config"
 	1    0    0    -1  
 $EndComp
 Text Notes 650  6375 0    50   ~ 0
-Socket not actually fitted,\nsolder pins from slide pots\nboard header
+Socket not actually fitted,\nsolder pins from slide pots\nboard header. THIS IS STUPID.\nDON'T DO IT THIS WAY.
+Text Notes 2150 850  0    50   ~ 0
+Actually it would be better to have sliders\nand jacks on the same board, main circuit\non another.
 $EndSCHEMATC
